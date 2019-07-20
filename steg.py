@@ -9,7 +9,7 @@ def encryp():
 
 	print("Starting Encrypion")
 	key = raw_input("Enter key : ")
-	message = raw_input("Enter message you want to encryp : ")
+	message = raw_input("Enter message you want to encrypt : ")
 
 	if len(message) % 16 != 0 :
 		new_message = len(message) + ( 16 -  (len(message) % 16))
