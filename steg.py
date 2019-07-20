@@ -42,7 +42,6 @@ def writeHash(binary):
 
 	count = 0
 	aa = len(joined)
-	print(aa)
 	img = Image.open(path)
 	img.save(path+".png")
 	lastImage = cv2.imread(path+".png")
